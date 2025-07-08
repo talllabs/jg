@@ -1,0 +1,190 @@
+Here is the code for a website for Jackie Gaffaney, using the colors from the MAPP and the screenshot for the design.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackie Gaffaney, PhD, MAPP | Gaffaney Applied Research & Evaluation Consulting</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        :root {
+            --primary-blue: #003366;
+            --secondary-teal: #008080;
+            --accent-yellow: #ffcc00;
+            --accent-orange: #ff9900;
+            --light-grey: #f2f2f2;
+            --dark-grey: #333;
+        }
+        header {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            background-color: var(--secondary-teal);
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: var(--primary-blue);
+            border-bottom: 2px solid var(--accent-yellow);
+            padding-bottom: 0.5rem;
+        }
+        .flex-container {
+            display: flex;
+            gap: 2rem;
+        }
+        .main-content {
+            flex: 3;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: var(--light-grey);
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+        .sidebar h3 {
+            color: var(--secondary-teal);
+        }
+        .checklist-section {
+            background-color: var(--accent-orange);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .checklist-section h2 {
+            color: white;
+        }
+        .checklist-section a {
+            background-color: white;
+            color: var(--accent-orange);
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: var(--dark-grey);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gaffaney Applied Research & Evaluation Consulting</h1>
+        [cite_start]<p>A Roadmap to Measuring What Matters [cite: 8, 9]</p>
+    </header>
+
+    <nav>
+        <a href="#about">About & Services</a>
+        <a href="#checklist">Wellbeing Checklist</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div id="about" class="section">
+            <div class="flex-container">
+                <div class="main-content">
+                    <h2>About Me</h2>
+                    <p>My name is Jaclyn Gaffaney, though you can call me Jackie. I am a PhD trained evaluator, researcher, practitioner, and professor with subject matter expertise in wellbeing science, positive psychology, organizational psychology, applied research, and evaluation. I am based in Seattle and find joy in bridging the research-practice gap.</p>
+                    
+                    <h2>Services Offered</h2>
+                    <p>I offer evaluation, research, and practitioner services. My work is tailored to your project's needs, often using a mixed-methods approach.</p>
+                    <h3>Evaluation Services</h3>
+                    <p>I help clients measure their work to assess effectiveness and impact, and to discover areas for improvement.</p>
+                    <h3>Academic & Applied Research Services</h3>
+                    <p>I conduct research for both applied and academic purposes, with an expertise in scale development and validation.</p>
+                    <h3>Practitioner Services - Program Design & Trainings</h3>
+                    <p>I design, implement, and manage programs, initiatives, and interventions. I also conduct workshops and trainings.</p>
+
+                    <h2>Research and Evaluation Skills</h2>
+                    <ul>
+                        <li><b>Designs & Methods:</b> mixed methods, longitudinal, experimental, survey & scale development, needs assessment, and more.</li>
+                        <li><b>Analyses:</b> regression, ANOVA, factor analysis, thematic analysis, and more.</li>
+                        <li><b>Reporting and Recommendations:</b> report creation, data walks, and using design thinking to translate findings into action.</li>
+                    </ul>
+
+                    <h2>Approaches</h2>
+                    <ul>
+                        <li>Bridging the Research-Practice Gap</li>
+                        <li>Systems-Informed and Sustainable</li>
+                        <li>Contextually and Culturally Responsive</li>
+                        <li>Access and Inclusion</li>
+                        <li>Wellbeing and Strengths-Based</li>
+                        <li>Evidence-Informed and Experimental</li>
+                    </ul>
+                </div>
+                <div class="sidebar">
+                    [cite_start]<h3>Jackie Gaffaney, PhD, MAPP [cite: 13]</h3>
+                    <p>
+                        Founder and Principal Consultant, Gaffaney Applied Research & Evaluation Consulting<br><br>
+                        Research & Evaluation Fellow at Claremont Graduate University<br><br>
+                        Co-Founder and Head of Measurement & Evaluation at Well-Crafted Collaborative
+                    </p>
+                    <h3>Education</h3>
+                    <p>
+                        <b>PhD in positive organizational psychology</b> - Claremont Graduate University<br><br>
+                        <b>Master's in applied positive psychology (MAPP)</b> - University of Pennsylvania<br><br>
+                        <b>Bachelor’s in communication</b> - University of Southern California
+                    </p>
+                    <h3>Previous Work</h3>
+                    <p>For examples of my previous work, please see my <a href="https://www.jgaffaney.com/uploads/7/0/5/3/70534235/gaffaney_cv_0424.pdf">CV</a> or <a href="https://www.linkedin.com/in/jaclyn-gaffaney-phd-mapp-95565732/">LinkedIn</a> profile.</p>
+                    <h3>Publications</h3>
+                    <p>For a list of my publications, please see my <a href="https://scholar.google.com/citations?user=Ld4fytwAAAAJ&hl=en">Google Scholar</a> profile.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="checklist" class="section checklist-section">
+            <h2>Wellbeing Initiative Design & Evaluation Checklist (WIDEC)</h2>
+            <p>Introducing the Wellbeing Initiative Design & Evaluation Checklist! Or WIDEC, for short. A framework for designing, implementing, and evaluating effective and sustainable systems-informed wellbeing initiatives.</p>
+            <a href="https://www.jgaffaney.com/uploads/7/0/5/3/70534235/wellbeing_initiative_design___evaluation_checklist.pdf" target="_blank">Download the Checklist</a>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            [cite_start]<p>If you would like to explore working with me for evaluation, research, or other practitioner services, please contact me at <a href="mailto:jackie@jgaffaney.com">jackie@jgaffaney.com</a>. [cite: 15]</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jackie Gaffaney</p>
+    </footer>
+
+</body>
+</html>
+```
